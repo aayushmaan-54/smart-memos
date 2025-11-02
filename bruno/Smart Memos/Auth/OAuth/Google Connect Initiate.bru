@@ -1,0 +1,20 @@
+meta {
+  name: Google Connect Initiate
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{BASE_API_URL}}/auth/google/connect
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2OTAwYWQ3MDk3NTg1ZGNmNTU4OWJjMzkiLCJ0b2tlbl90eXBlIjoiQUNDRVNTX1RPS0VOIiwiaWF0IjoxNzYxNjUyMjEyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDgiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjgwMDgiLCJleHAiOjE3NjE2NTMyMzJ9.q0VjMQBeOPK0KRVQgz3qHZ-1FwMhgyhUqMdihrDGeeY
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

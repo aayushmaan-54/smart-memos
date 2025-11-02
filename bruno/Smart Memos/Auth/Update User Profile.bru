@@ -1,0 +1,20 @@
+meta {
+  name: Update User Profile
+  type: http
+  seq: 15
+}
+
+patch {
+  url: {{BASE_API_URL}}/auth/profile
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2OGZmNGY3MzU4OWNmY2ZjZWM4N2M1NzkiLCJ0b2tlbl90eXBlIjoiQUNDRVNTX1RPS0VOIiwiaWF0IjoxNzYxNjUxODIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDgiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjgwMDgiLCJleHAiOjE3NjE2NTI4NDJ9.WgrG77yWubhDOZsTcoTiGaSA-6waywMWoTecz2QqBkY
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

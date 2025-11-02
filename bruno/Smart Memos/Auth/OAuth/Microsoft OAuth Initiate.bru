@@ -1,0 +1,16 @@
+meta {
+  name: Microsoft OAuth Initiate
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{BASE_API_URL}}/auth/microsoft
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

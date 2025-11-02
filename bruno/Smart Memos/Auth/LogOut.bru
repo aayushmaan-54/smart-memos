@@ -1,0 +1,24 @@
+meta {
+  name: LogOut
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{BASE_API_URL}}/auth/logout
+  body: none
+  auth: bearer
+}
+
+headers {
+  Cookie: smartMemos-refresh_token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2OGZmNGY3MzU4OWNmY2ZjZWM4N2M1NzkiLCJ0b2tlbl90eXBlIjoiUkVGUkVTSF9UT0tFTiIsImlhdCI6MTc2MTU2MjU4MywiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDA4IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo4MDA4IiwiZXhwIjoxNzYyMTY3MzgzfQ.KE4g2YUrXV2OdGguD_vxddewdZ88uV7lIA6PFcAMK3E
+}
+
+auth:bearer {
+  token: 
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

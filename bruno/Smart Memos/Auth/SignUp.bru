@@ -1,0 +1,25 @@
+meta {
+  name: SignUp
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{BASE_API_URL}}/auth/signup
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "username": "john.doe",
+    "email": "john.doe@yopmail.com",
+    "password": "johnDoe@12345",
+    "optOutAi": false
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

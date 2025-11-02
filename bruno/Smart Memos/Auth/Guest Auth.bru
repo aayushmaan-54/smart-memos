@@ -1,0 +1,15 @@
+meta {
+  name: Guest Auth
+  type: http
+  seq: 13
+}
+
+post {
+  url: {{BASE_API_URL}}/auth/guest
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

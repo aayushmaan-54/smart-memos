@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Smart Memos",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
