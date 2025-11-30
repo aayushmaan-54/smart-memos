@@ -1,4 +1,4 @@
-# Smart Memos: AI-Powered Notes App with WYSIWYG Editor
+# ✦ Smart Memos: AI-Powered Notes App with WYSIWYG Editor
 
 ## ⚡ Features
 
